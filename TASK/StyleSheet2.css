@@ -1,0 +1,184 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+.FAKEIMAGE {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+
+/* img {
+    vertical-align: middle;
+    width: 100%;
+} */
+
+
+/* End Global */
+
+.ROW {
+    display: flex;
+}
+
+.ROW .leftSide {
+    flex: 33.33333%;
+    background-color: #fff;
+    margin: 20px 10px 20px 20px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ROW .leftSide i {
+    color: #009688;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.ROW .leftSide .imgContainer {
+    position: relative;
+}
+
+.ROW .leftSide .imgContainer .name {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.ROW .leftSide .contacts {
+    margin: 15px;
+}
+
+.ROW .leftSide .contacts p {
+    font-size: 14px;
+    color: #727272;
+}
+
+.ROW .leftSide hr {
+    margin: 25px;
+    color: #009688;
+}
+
+.ROW .leftSide .SKIILS {
+    margin: 15px;
+}
+
+.ROW .leftSide .SKIILS h3 {
+    color: #727272;
+    font-weight: normal;
+}
+
+.ROW .leftSide .SKIILS h3 i {
+    margin-right: 10px;
+}
+
+.ROW .leftSide .SKIILS p {
+    color: #727272;
+}
+
+.ROW .leftSide .SKIILS .FINAL {
+    background-color: #aaa;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ROW .leftSide .SKIILS .FINAL .curProgress {
+    background-color: #009688;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+}
+
+.ROW .leftSide .SKIILS .FINAL .cur1 {
+    width: 90%;
+}
+
+.ROW .leftSide .SKIILS .FINAL .cur2 {
+    width: 80%;
+}
+
+.ROW .leftSide .SKIILS .FINAL .cur3 {
+    width: 75%;
+}
+
+.ROW .leftSide .SKIILS .FINAL .cur4 {
+    width: 50%;
+}
+
+.ROW .rightSide {
+    flex: 66.66666%;
+}
+
+.ROW .rightSide .INSIDEROW {
+    flex: 100%;
+    background-color: #fff;
+    margin: 20px 20px 20px 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ROW .rightSide .INSIDEROW h3 {
+    color: #727272;
+    font-weight: normal;
+}
+
+.ROW .rightSide .INSIDEROW h3 i {
+    color: #009688;
+    margin: 7px 7px 7px 0;
+    font-size: 25px;
+}
+
+.ROW .rightSide .INSIDEROW .IOB INFIMATION h5 {
+    color: #727272;
+    font-size: 16px;
+}
+
+.ROW .rightSide .INSIDEROW .IOB INFIMATION h6 {
+    font-weight: normal;
+    font-size: 15px;
+    color: #009688;
+    margin-top: -10px;
+}
+
+.ROW .rightSide .INSIDEROW .IOB INFIMATION h6 span {
+    background-color: #009688;
+    color: #fff;
+    border-radius: 3px;
+    padding: 3px 5px;
+}
+
+.ROW .rightSide .INSIDEROW .IOB INFIMATION h6 i {
+    margin-right: 7px;
+}
+
+.ROW .rightSide .INSIDEROW .IOB INFIMATION p {
+    font-size: 14px;
+}
+
+.ROW .rightSide .INSIDEROW hr {
+    margin: 30px;
+    color: #009688;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    background-color: #009688;
+    padding: 30px;
+}
+
+footer i {
+    font-size: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
